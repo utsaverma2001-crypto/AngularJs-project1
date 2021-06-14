@@ -1,0 +1,44 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+.templates img{
+  width:60%;
+  height:55%;
+}
+.templates{
+  text-align: center;
+  padding:2%;
+}
+.templates h3{
+  margin-top:2%;
+}
+.templates a{
+  width:50%;
+  text-align: center;
+  margin:auto;
+}
+.templates .col-md-4{
+ margin-bottom: 2%;
+}
